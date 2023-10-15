@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Videos/Protfilo"
+		},
+		{
+			"path": "../Calculator"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Protfilo"
+	}
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC WEBSITE LANDING PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="bucket"></div>
+    <header>
+        <a href="#" class="logo"><img src="KFC.jpg" alt=""></a>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">WHAT'S NEW</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        <div class="textbox">
+            <h2>It's not just testy<br> It's <span>EMOTION</span></h2>
+            <p>KFC has been an extensive advertiser since the establishment of the first franchise in 1952.
+
+                Founder Harland Sanders initially developed his "Colonel" persona as a low-cost marketing tool.<br>
+                 The Colonel's image is still used extensively in the chain's advertising</p>
+                 <a href="#">Learn More</a>
+        </div>
+        <div class="imgBox">
+            <img src="KFC!.webp"  class="kfc">
+        </div>
+    </div>
+
+    <ul class="item">
+        <li><img src="kfc2.jpg" onclick="imgSlider('kfc2.jpg');changeCircleColor('#89ABE3')"></li>
+        <li><img src="kfc3.jpg" onclick="imgSlider('kfc3.jpg');changeCircleColor('#eb7495')"></li>
+        <li><img src="kfc4.jpg" onclick="imgSlider('kfc4.jpg');changeCircleColor('#EA738D')"></li>
+    </ul>
+
+
+</section>
+<script type="text/javascript">
+
+    function imgSlider(anything){
+        document.querySelector('.kfc').src=anything;
+    }
+
+    function changeCircleColor(color){
+        const bucket=document.querySelector('.bucket');
+        bucket.style.background = color;
+    }
+</script>
+    
+</body>
+</html>
